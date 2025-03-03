@@ -3,11 +3,11 @@
   <title>CMeng`Blog</title>
   
   <subtitle>以梦为马，不负韶华</subtitle>
-  <link href="http://example.com/atom.xml" rel="self"/>
+  <link href="https://pinkiki.github.io/atom.xml" rel="self"/>
   
-  <link href="http://example.com/"/>
+  <link href="https://pinkiki.github.io/"/>
   <updated>2025-02-27T05:35:21.021Z</updated>
-  <id>http://example.com/</id>
+  <id>https://pinkiki.github.io/</id>
   
   <author>
     <name>溪木Q</name>
@@ -18,8 +18,8 @@
   
   <entry>
     <title>Hello World</title>
-    <link href="http://example.com/posts/4a17b156.html"/>
-    <id>http://example.com/posts/4a17b156.html</id>
+    <link href="https://pinkiki.github.io/posts/4a17b156.html"/>
+    <id>https://pinkiki.github.io/posts/4a17b156.html</id>
     <published>2025-02-26T08:28:04.179Z</published>
     <updated>2025-02-27T05:35:21.021Z</updated>
     
