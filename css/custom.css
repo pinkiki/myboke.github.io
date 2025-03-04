@@ -363,3 +363,25 @@ div#category {
 #article-container figure.highlight {
   border-radius: 10px;
 }
+/* 侧边栏个人信息卡片动态渐变色 */
+#aside-content>.card-widget.card-info{
+  background-image: linear-gradient(-20deg, #ccf6f9 0%, #fafcfc 100%);
+
+}
+[data-theme=dark] #aside-content>.card-widget.card-info {
+  background-image: linear-gradient(-20deg, #ccf6f9 0%, #fafcfc 100%);
+}
+/* 侧边栏公告栏卡片渐变色 */
+#aside-content>.card-widget.card-announcement{
+  background-image: linear-gradient(to top, #ccf6f9 0%, #fafcfc 100%);
+}
+[data-theme=dark] #aside-content>.card-widget.card-announcement{
+  background-image: linear-gradient(to top, #ccf6f9 0%, #fafcfc 100%);
+}
+/* 侧边栏目录最新文章卡片渐变色 */
+#aside-content>.sticky_layout>.card-widget{
+  background-image: linear-gradient(to top, #ccf6f9 0%, #fafcfc 100%);
+}
+[data-theme=dark] #aside-content>.sticky_layout>.card-widget{
+  background-image: linear-gradient(to top, #ccf6f9 0%, #fafcfc 100%);
+}
