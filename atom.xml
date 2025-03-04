@@ -6,7 +6,7 @@
   <link href="https://pinkiki.github.io/atom.xml" rel="self"/>
   
   <link href="https://pinkiki.github.io/"/>
-  <updated>2025-03-03T08:39:46.000Z</updated>
+  <updated>2025-03-04T06:57:13.766Z</updated>
   <id>https://pinkiki.github.io/</id>
   
   <author>
@@ -17,13 +17,38 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>css面试题</title>
+    <link href="https://pinkiki.github.io/posts/eaab8825.html"/>
+    <id>https://pinkiki.github.io/posts/eaab8825.html</id>
+    <published>2025-03-04T06:25:22.000Z</published>
+    <updated>2025-03-04T06:57:13.766Z</updated>
+    
+    <content type="html"><![CDATA[<div class="tip key"><p>回流和重绘是什么是怎么处理的</p></div><p>重绘：当元素样式发生改变，但不影响其几何属性的时候，浏览器只需要重新绘制这个元素，这个过程被称为重绘 </p><p>回流： 当页面布局和几何属性发生变化，导致部分或全部元素的尺寸、位置、结构发生改变时，浏览器需要重新计算元素的几何属性和页面的布局，这个过程被称为回流。</p><p>回流必将引起重绘，而重绘不一定会引起回流</p><p>优化： 合并多次 DOM 和样式修改的优势，减少回流和重绘的次数，通过修改元素的类而不是直接操作样式</p><p>使用 CSS3 的 transform 和 opacity 属性来替代使用 top、left 等位置和尺寸相关的属性，因为 transform 和 opacity 不会引起回流。</p><p>尽可能在DOM树的末端进行操作，避免对整个页面进行回流</p><p>尽量使用css3动画来替代使用js实现的动画效果</p><hr>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;div class=&quot;tip key&quot;&gt;&lt;p&gt;回流和重绘是什么是怎么处理的&lt;/p&gt;
+&lt;/div&gt;
+&lt;p&gt;重绘：当元素样式发生改变，但不影响其几何属性的时候，浏览器只需要重新绘制这个元素，这个过程被称为重绘 &lt;/p&gt;
+&lt;p&gt;回流： 当页面布局和几何属性发生变化，导致部分或全部元素</summary>
+      
+    
+    
+    
+    
+    <category term="面试" scheme="https://pinkiki.github.io/tags/%E9%9D%A2%E8%AF%95/"/>
+    
+  </entry>
+  
+  <entry>
     <title>出师表</title>
     <link href="https://pinkiki.github.io/posts/cd603c7d.html"/>
     <id>https://pinkiki.github.io/posts/cd603c7d.html</id>
     <published>2025-03-03T08:24:50.000Z</published>
-    <updated>2025-03-03T08:39:46.000Z</updated>
+    <updated>2025-03-04T06:55:11.585Z</updated>
     
-    <content type="html"><![CDATA[<p>臣亮言：<mark class="hl-label default">先帝</mark>创业未半，而<mark class="hl-label blue">中道崩殂</mark>。今天下三分，<mark class="hl-label pink">益州疲敝</mark>，此诚<mark class="hl-label red">危急存亡之秋</mark>也！然侍衞之臣，不懈于内；<mark class="hl-label purple">忠志之士</mark>，忘身于外者，盖追先帝之殊遇，欲报之于陛下也。诚宜开张圣听，以光先帝遗德，恢弘志士之气；不宜妄自菲薄，引喻失义，以塞忠谏之路也。<br>宫中、府中，俱为一体；陟罚臧否，不宜异同。若有<mark class="hl-label orange">作奸</mark>、<mark class="hl-label green">犯科</mark>，及为忠善者，宜付有司，论其刑赏，以昭陛下平明之治；不宜偏私，使内外异法也。</p><div class="tip key"><p>key</p></div>]]></content>
+    <content type="html"><![CDATA[<p>臣亮言：<mark class="hl-label default">先帝</mark>创业未半，而<mark class="hl-label blue">中道崩殂</mark>。今天下三分，<mark class="hl-label pink">益州疲敝</mark>，此诚<mark class="hl-label red">危急存亡之秋</mark>也！然侍衞之臣，不懈于内；<mark class="hl-label purple">忠志之士</mark>，忘身于外者，盖追先帝之殊遇，欲报之于陛下也。诚宜开张圣听，以光先帝遗德，恢弘志士之气；不宜妄自菲薄，引喻失义，以塞忠谏之路也。<br>宫中、府中，俱为一体；陟罚臧否，不宜异同。若有<mark class="hl-label orange">作奸</mark>、<mark class="hl-label green">犯科</mark>，及为忠善者，宜付有司，论其刑赏，以昭陛下平明之治；不宜偏私，使内外异法也。</p>]]></content>
     
     
       

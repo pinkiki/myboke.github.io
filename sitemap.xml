@@ -2,9 +2,18 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://pinkiki.github.io/posts/eaab8825.html</loc>
+    
+    <lastmod>2025-03-04</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://pinkiki.github.io/posts/cd603c7d.html</loc>
     
-    <lastmod>2025-03-03</lastmod>
+    <lastmod>2025-03-04</lastmod>
     
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
@@ -30,6 +39,13 @@
   
   <url>
     <loc>https://pinkiki.github.io/tags/%E5%8F%A4%E8%AF%97/</loc>
+    <lastmod>2025-03-04</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://pinkiki.github.io/tags/%E9%9D%A2%E8%AF%95/</loc>
     <lastmod>2025-03-04</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
